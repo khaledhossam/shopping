@@ -3,7 +3,7 @@
   <b-navbar toggleable="lg" type="" variant="">
     <b-navbar-brand href="#"></b-navbar-brand>
     <v-toolbar-side-icon>
-        <v-img src="@/assets/logo.png" />
+        <v-img  src="@/assets/logo.png" />
     </v-toolbar-side-icon>  
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -12,7 +12,8 @@
       <b-navbar-nav>
   
       </b-navbar-nav>
-
+<v-toolbar-side-icon class="logo">
+    </v-toolbar-side-icon>  
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <b-nav-form>
@@ -42,5 +43,4 @@
 </template>
 
 <style>
-
 </style>
